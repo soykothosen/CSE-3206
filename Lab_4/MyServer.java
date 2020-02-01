@@ -16,6 +16,9 @@ class MyServer {
 
         os.writeObject(object1);
 
+        parityChecker ppro = new parityChecker();
+        ppro.getParity(28);
+
         s.close();
         
     }
